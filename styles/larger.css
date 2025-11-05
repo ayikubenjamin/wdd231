@@ -1,4 +1,4 @@
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 769px) {
     .LogoandName {
     display: grid;
     grid-template-columns: 65px auto 44px;
@@ -63,14 +63,6 @@
         border-radius: 8px;
         height: auto;
         margin: 20px;
-    }
-
-    h3{
-        background-color: grey;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        border-radius: 8px;
     }
 
     
