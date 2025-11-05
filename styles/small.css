@@ -1,0 +1,4 @@
+.LogoandName {
+  display: grid;
+  grid-template-columns: 45px auto 44px;
+}

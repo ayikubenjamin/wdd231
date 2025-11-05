@@ -1,0 +1,129 @@
+@media screen and (min-width: 750px) {
+    .LogoandName {
+    display: grid;
+    grid-template-columns: 65px auto 44px;
+    background-color: lightblue;
+    }
+
+    .LogoandName span{
+        font-family: roboto;
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .nav{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-around;
+    }
+
+    .nav a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav a:hover{
+        text-decoration: underline;
+        text-decoration-color: yellow;
+    }
+
+    main {
+    max-width: 100%;
+    padding: 20px; 
+    }
+
+    .sections{
+    display: grid;
+    grid-template-columns: 70% 30%; 
+    gap: 20px; 
+    }
+
+  
+
+    .sections section:nth-child(3) {
+    grid-column: 1 / -1; 
+    }
+
+    h2{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .sections img{
+        max-width: 300px;
+        border-radius: 8px;
+        height: auto;
+        margin: 20px;
+    }
+
+    h3{
+        background-color: grey;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    
+    .logos {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        gap: 10px;
+        margin-bottom: 5px;  
+    }
+
+    .dates{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    .courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    }
+
+    .coursetitle{
+        background-color: lightblue;
+        text-align: center;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .coursecard{
+       padding: 12px;
+       border-radius: 8px;
+       text-align: center;
+    }
+
+    .coursediv{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+   
+
+
+
+    
+
+    
+
+
+
+
+}
