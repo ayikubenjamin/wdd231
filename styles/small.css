@@ -79,10 +79,11 @@
     }
 
     .sections img{
-        width: fit-content;
+        width: 200px;
         border-radius: 8px;
         height: auto;
-        margin: 15px;
+        display: block;
+        margin: 0 auto;
     }
 
     .logos {
