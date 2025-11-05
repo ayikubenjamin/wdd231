@@ -79,10 +79,10 @@
     }
 
     .sections img{
-        max-width: 350px;
+        width: fit-content;
         border-radius: 8px;
         height: auto;
-        margin-left: 90px;
+        /*margin-left: 90px;*/
     }
 
     .logos {
