@@ -1,0 +1,55 @@
+.LogoandName {
+    display: grid;
+    grid-template-columns: 65px auto auto;
+    background-color: black;
+    }
+
+    .LogoandName span{
+        font-family: roboto;
+        font-size: 30px;
+        padding: 25px;
+        color: white;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    nav{
+    display: flex;
+    
+    padding: 10px;
+    align-items: center;
+    justify-content:space-around;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+    }
+
+    nav a:hover{
+        text-decoration: underline;
+        text-decoration-color: yellow;
+    }
+
+    footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: gray;
+    color: white;
+    }
+
+    .info{
+        margin: 15px;
+    }
+
+     .dates{
+        margin: 15px;
+        text-align:justify;
+     }
+
+     .logos{
+        margin: 15px;
+        margin-top: 30px;
+     }
