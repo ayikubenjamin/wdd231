@@ -8,7 +8,7 @@ lastModified.innerHTML = `Last Modified : ${theDate.toLocaleString("en-Us")}`
 
 
 const hamburger = document.querySelector('#nav-button');
-const nav = document.querySelector('.nav');
+const nav = document.querySelector('nav');
 
 hamburger.addEventListener('click', () => {
     nav.classList.toggle('open');

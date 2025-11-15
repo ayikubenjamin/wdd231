@@ -1,16 +1,65 @@
-{
+[
+  {
     "name": "Smile Cleaning Limited",
-    "Address": " Accra metropolitan, Ghana",
-    "Phone Number": "0244328738",
+    "Address": "Accra metropolitan, Ghana",
+    "PhoneNumber": "0244328738",
     "Website": "https://www.smilelaundrygh.com",
     "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1639326677.png",
     "Membership Level": 1,
     "Service": "Laundry & Dry Cleaning"
-}
-
-
-
-
-
-
-
+  },
+  {
+    "name": "Caradise Ghana",
+    "Address": "Worship Curve, Ledzokuku-Krowor Muni, Ghana",
+    "PhoneNumber": "0246086365",
+    "Website": "https://caradiseghana.com",
+    "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1745917779.jpg",
+    "Membership Level": 2,
+    "Service": "Chauffeur-driven car and bus rental"
+  },
+  {
+    "name": "BenPhils Properties ltd",
+    "Address": "452/2 Mallam Baako street, Ga Central District, Ghana",
+    "PhoneNumber": "0502386374",
+    "Website": "https://benphilspropertiesltd.business.blog",
+    "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1644147426.jpeg",
+    "Membership Level": 3,
+    "Service": "Sales and rentals of luxury homes and apartments"
+  },
+  {
+    "name": "Elixir Audits",
+    "Address": "1 Alex Nkrumah Street, Airport West, Accra metropolitan, Ghana",
+    "PhoneNumber": "0209480020",
+    "Website": "https://www.elixiraudits.com/",
+    "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1725538118.png",
+    "Membership Level": 3,
+    "Service": "Accounting and Auditing"
+  },
+  {
+    "name": "Ghana Rubber Products Ltd",
+    "Address": "No. 7 Adjuma Crescent Near STC, South Industrial Area Accra, Ghana, Accra metropolitan, Ghana",
+    "PhoneNumber": "0209480020",
+    "Website": "http://ghanarubber.com",
+    "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1672206178.jpg",
+    "Membership Level": 2,
+    "Service": "Manufacturing and supply of eco-friendly disposables made of rubber and paper"
+  },
+  {
+    "name": "Kranboll",
+    "Address": "Mayflower House, Rev Dagadu St. Comm. 10, Tema, Ghana, Tema metropolitan, Ghana",
+    "PhoneNumber": "0303955822",
+    "Website": "https://kranboll.com",
+    "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1734352594.jpg",
+    "Membership Level": 1,
+    "Service": "Procurement, supply, logistics, repair & maintenance"
+  },
+  {
+    "name": "Maxberyl Enterprise",
+    "Address": "123 Mukose Road, Accra metropolitan, Ghana",
+    "PhoneNumber": "0242490832",
+    "Website": "https://www.maxberyl.com",
+    "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1653602131.jpg",
+    "Membership Level": 3,
+    "Service": "Medical wears, engineering wears, PPEs"
+  }
+]

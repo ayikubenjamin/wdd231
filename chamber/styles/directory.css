@@ -36,8 +36,8 @@
     footer {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: gray;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     }
 
     .info{
@@ -53,3 +53,123 @@
         margin: 15px;
         margin-top: 30px;
      }
+
+     .NandB{
+        display: grid;
+        grid-template-columns: 75% 25%;
+        background-color: black;
+        color: goldenrod;
+        padding: 15px;
+        margin: 0%;
+     }
+
+     .buttons{
+        display: flex;
+        justify-content: flex-end; 
+        gap: 10px; 
+     }
+
+     #gbutton, #lbutton{
+        width: 80px;
+        height: 35px;
+        padding: 10px;
+        border-radius: 15px;
+        margin-top: 15px;
+     }
+
+.membersContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.memberCard {
+    background:whitesmoke;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.memberCard img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .LogoandName {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+        background-color: black;
+        border-bottom: 1px solid goldenrod;
+    }
+
+
+     .LogoandName span {
+        color: goldenrod;
+        flex-grow: 1;
+        margin-left: 10px;
+        font-size: 19px;
+        font-weight: bold;
+    }
+
+    .hamburger {
+        display: block;   
+    }
+
+    .hamburger {
+        width: 35px;
+        height: 35px;
+        background-color: goldenrod;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .hamburger::before {
+        content: '☰';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hamburger.open::before {
+        content: '✕';
+    }
+
+    
+    nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        padding: 20px 15px;
+        background-color:black;
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid black;
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        background-color: goldenrod;
+    }  
+
+    main{
+        display: block;
+    }
+}
