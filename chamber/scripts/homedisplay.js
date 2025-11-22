@@ -6,20 +6,20 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const forecastDiv = document.querySelector('#forecast');
 
-// Use the SAME coordinates and API key for both
+
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=5.56&lon=-0.20&appid=d7b75a0a78c62591e681a8cc2528a462&units=imperial';
 const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=5.56&lon=-0.20&appid=d7b75a0a78c62591e681a8cc2528a462&units=imperial'; 
 
 async function apiFetch() {
   try {
-    // Fixed: changed Url to url, Data to data
+    
     const response = await fetch(url);
     const data = await response.json();
-    console.log('Current weather:', data); // Check this
+    console.log('Current weather:', data); 
     
     const forecastResponse = await fetch(forecastUrl);
     const forecastData = await forecastResponse.json();
-    console.log('Forecast data:', forecastData); // Check this
+    console.log('Forecast data:', forecastData); 
     
     displayTemp(data);
     displayForecast(forecastData.list);
@@ -38,9 +38,7 @@ function displayTemp(data) {
 }
 
 function displayForecast(list) {
-  // Get one forecast per day at noon (12:00:00)
   const dailyForecasts = list.filter(item => item.dt_txt.includes('12:00:00')).slice(0, 3);
-  
   forecastDiv.innerHTML = '';
   
   dailyForecasts.forEach(day => {
@@ -63,18 +61,18 @@ function displayForecast(list) {
 apiFetch();
 
 function spotlight(membersData) {
-    // Filter INSIDE the function, after data is loaded
+    
     const goldmembers = membersData.filter(member => member.MembershipLevel === 3);
     
-    // Get the correct container
-    const spotlightContainer = document.querySelector('.spotlightContainer'); // or whatever your spotlight container is
+    
+    const spotlightContainer = document.querySelector('.spotlightContainer'); 
     
     if (!spotlightContainer) {
         console.error('Spotlight container not found!');
         return;
     }
     
-    spotlightContainer.innerHTML = ''; // Clear existing content
+    spotlightContainer.innerHTML = ''; 
     
     goldmembers.forEach(member => {
         const memberCard = document.createElement('div');
@@ -97,7 +95,7 @@ function spotlight(membersData) {
     });
 }
 
-// Use the data returned from fetchdata
+
 fetchdata().then(data => {
-    spotlight(data); // Pass the fetched data, not the global members variable
+    spotlight(data); 
 });
