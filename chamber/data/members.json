@@ -5,7 +5,7 @@
     "PhoneNumber": "0244328738",
     "Website": "https://www.smilelaundrygh.com",
     "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1639326677.png",
-    "Membership Level": 1,
+    "MembershipLevel": 1,
     "Service": "Laundry & Dry Cleaning"
   },
   {
@@ -14,7 +14,7 @@
     "PhoneNumber": "0246086365",
     "Website": "https://caradiseghana.com",
     "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1745917779.jpg",
-    "Membership Level": 2,
+    "MembershipLevel": 2,
     "Service": "Chauffeur-driven car and bus rental"
   },
   {
@@ -23,7 +23,7 @@
     "PhoneNumber": "0502386374",
     "Website": "https://benphilspropertiesltd.business.blog",
     "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1644147426.jpeg",
-    "Membership Level": 3,
+    "MembershipLevel": 3,
     "Service": "Sales and rentals of luxury homes and apartments"
   },
   {
@@ -32,7 +32,7 @@
     "PhoneNumber": "0209480020",
     "Website": "https://www.elixiraudits.com/",
     "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1725538118.png",
-    "Membership Level": 3,
+    "MembershipLevel": 3,
     "Service": "Accounting and Auditing"
   },
   {
@@ -41,7 +41,7 @@
     "PhoneNumber": "0209480020",
     "Website": "http://ghanarubber.com",
     "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1672206178.jpg",
-    "Membership Level": 2,
+    "MembershipLevel": 2,
     "Service": "Manufacturing and supply of eco-friendly disposables made of rubber and paper"
   },
   {
@@ -50,7 +50,7 @@
     "PhoneNumber": "0303955822",
     "Website": "https://kranboll.com",
     "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1734352594.jpg",
-    "Membership Level": 1,
+    "MembershipLevel": 1,
     "Service": "Procurement, supply, logistics, repair & maintenance"
   },
   {
@@ -59,7 +59,7 @@
     "PhoneNumber": "0242490832",
     "Website": "https://www.maxberyl.com",
     "image": "https://www.accralocalbusinessdirectory.com/images/users/pimg_1653602131.jpg",
-    "Membership Level": 3,
+    "MembershipLevel": 3,
     "Service": "Medical wears, engineering wears, PPEs"
   }
 ]

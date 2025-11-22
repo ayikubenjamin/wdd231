@@ -1,12 +1,12 @@
-let members = []
+export let members = []
 
-async function fetchdata(){
+ export async function fetchdata(){
     const response = await fetch('./data/members.json')
     if (!response.ok){
         throw new Error(`Http Error ${response.status}`);   
     }
 
-    const members = await response.json()
+    members = await response.json()
     return members 
 }
 
@@ -67,4 +67,3 @@ document.querySelectorAll('#gbutton, #lbutton').forEach(button => {
 })
 
 
-    

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accra Chamber of Commerce directory</title>
+    <meta name="description" content="Accra Chamber of Commerce directory page">
+    <meta name="author" content="Benjamin Ayiku">
+    <meta property="og:title" content="Benjamin">
+    <meta property="og:description" content="Accra chamber of Commerce directory page showing list of business located in Accra, services they offer and their phone number and email address">
+    <meta property="og:url" content="https://ayikubenjamin.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="images/myself.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/dates.js" defer></script>
+    <script type="module" src="scripts/display.js" defer></script>
+    <script type="module" src="scripts/homedisplay.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="LogoandName">
+            <img src="images/logo.webp" alt="site logo" width="90" height="90">
+            <span>Accra Chamber of Commerce</span>
+            <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="directory.html">Directory</a>
+                <a href="finalproject.html">Discover</a>
+                <a href="finalproject.html">Join</a>   
+            </nav>
+        </div>    
+    </header>
+    <main>
+        <div class="NandB">
+            <h2>Home</h2>
+            <span>Do you have a Business in Accra?<br>Click <b><a href="join.html">Join</a></b> now!</span> 
+        </div>
+        <div class="hero">
+            <img src="images/hero.webp" alt="Business buildings in Accra">
+        </div>
+        <div class="last">
+            <div class="Events">
+                <h3>Events</h3>
+                <div class="einfo">
+                    <img src="images/eventflyer.webp" alt="event info">
+                </div>
+            </div>
+                <div class="Weather">
+                    <h3>Weather</h3>
+                    <div class="todaytemp">
+                        <p id="current-temp"></p>
+                        <figure>
+                            <img id="weather-icon" src="" alt="">
+                            <figcaption></figcaption>
+                        </figure>
+                    </div>
+                    <div id="forecast"></div>
+                </div>
+            <div class="spotlight">
+                <h3>Spotlight</h3>
+                <div class="spotlightContainer"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="info">
+            <p><strong>Accra Chamber of Commerce</strong></p>
+            <p>Accra, Osu</p>
+            <p>info.acc@acc.org</p>
+            <p>(+233)59 123 4567</p>
+        </div>
+        <div class="logos">
+            <a href="https://github.com/ayikubenjamin"><img src="images/github.svg" alt="github account" width="50" height="50"></a>
+            <a href="https://www.linkedin.com/in/benjamin-ayiku-tetteh/"><img src="images/linkedin.svg" alt="linkedin account" width="50" height="50"></a>
+            <a href="https://twitter.com"><img src="images/twitter-x.svg" alt="twitter-x account" width="50" height="50"></a>
+        </div>
+        <div class="dates">
+            <p>WDD 231 Class Project</p>
+            <p>Benjamin Ayiku</p>
+            <span id="currentyear"></span>
+            <p><span id="lastmodified"></span></p> 
+        </div>
+    </footer>
+</body>
+</html>
