@@ -1,5 +1,5 @@
 import { fetchdata } from './display.js'
-import { members } from './display.js'
+
 
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');

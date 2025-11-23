@@ -1,4 +1,4 @@
-export let members = []
+ let members = []
 
  export async function fetchdata(){
     const response = await fetch('./data/members.json')
