@@ -11,6 +11,8 @@
 }
 
 function display(members){
+            const membersContainer = document.querySelector('.membersContainer')
+            membersContainer.innerHTML = ''
             members.forEach(member=> {
             const memberCard = document.createElement('div')
             memberCard.classList.add("memberCard")
@@ -35,7 +37,7 @@ function display(members){
             service.textContent = `Services: ${member.Service}`
             memberCard.appendChild(service)
 
-            const membersContainer = document.querySelector('.membersContainer')
+            
             membersContainer.appendChild(memberCard)
     })
 
