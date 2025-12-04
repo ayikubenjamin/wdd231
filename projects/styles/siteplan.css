@@ -1,0 +1,15 @@
+header{
+    background-color: midnightblue;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+h2{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
