@@ -14,10 +14,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <link rel="icon" href="favicon.ico">
     <script src="scripts/dates.js" defer></script>
-    <script type="module" src="scripts/display.js" defer></script>
-    <script type="module" src="scripts/homedisplay.js" defer></script>
+    <script type="module" src="data/accraitems.mjs" defer></script>
+    <script type="module" src="scripts/discover.js" defer></script>
 </head>
 <body>
     <header>
@@ -35,35 +36,11 @@
     </header>
     <main>
         <div class="NandB">
-            <h2>Home</h2>
-            <span>Do you have a Business in Accra?<br>Click <b><a href="join.html">Join</a></b> now!</span> 
+            <h2>Discover</h2>
+            <p id="visitmessage"></p>
         </div>
-        <div class="hero">
-            <img src="images/hero.webp" alt="Business buildings in Accra">
-        </div>
-        <div class="last">
-            <div class="Events">
-                <h3>Events</h3>
-                <div class="einfo">
-                    <img src="images/eventflyer.webp" alt="event info">
-                </div>
-            </div>
-                <div class="Weather">
-                    <h3>Weather</h3>
-                    <div class="todaytemp">
-                        <p id="current-temp"></p>
-                        <figure>
-                            <img id="weather-icon" src="" alt="">
-                            <figcaption></figcaption>
-                        </figure>
-                    </div>
-                    <div id="forecast"></div>
-                </div>
-            <div class="spotlight">
-                <h3>Spotlight</h3>
-                <div class="spotlightContainer"></div>
-            </div>
-        </div>
+        <div class="places"></div>
+        
     </main>
     <footer>
         <div class="info">

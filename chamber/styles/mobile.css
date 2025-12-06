@@ -1,0 +1,130 @@
+@media screen and (max-width: 640px) {
+    
+    .LogoandName {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+        background-color: black;
+        border-bottom: 1px solid goldenrod;
+    }
+
+
+     .LogoandName span {
+        color: goldenrod;
+        flex-grow: 1;
+        margin-left: 10px;
+        font-size: 19px;
+        font-weight: bold;
+    }
+
+    .hamburger {
+        display: block;   
+    }
+
+    .hamburger {
+        width: 35px;
+        height: 35px;
+        background-color: goldenrod;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .hamburger::before {
+        content: '☰';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hamburger.open::before {
+        content: '✕';
+    }
+
+    
+    nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        padding: 20px 15px;
+        background-color:black;
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid black;
+        font-size: 18px;
+    }
+
+    nav a:hover {
+        background-color: goldenrod;
+    }  
+
+    main {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+    .itemCard {
+    background-color:#ddd;
+    border-radius: 7px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "image"
+    "desc"
+    "address"
+    "button";
+    gap: 10px;
+    }
+
+    .itemCard h2{
+    grid-area: name;
+    margin: 0;
+    }
+
+.itemCard img{
+    grid-area: image;
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+
+
+.itemCard p{
+    grid-area: desc;
+    margin: 0;
+}
+
+.itemCard address{
+     grid-area: address;
+     margin: 0;
+}
+
+.itemCard .lbutton {
+    grid-area: button;
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 10px 10px 40px;
+}
+
+}   
