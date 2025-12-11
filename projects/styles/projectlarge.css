@@ -1,0 +1,266 @@
+header{
+    background-color: midnightblue;
+    display: grid;
+    grid-template-columns: min-content auto;
+    align-items: center;
+}
+
+
+.main-menu a:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+
+.navbar {
+  display: flex;          
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-family: 'roboto' ;
+  font-size: 18px;
+}
+
+.navbar  a:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.quote p{
+    font-family: 'meriweather';
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    padding: 30px;
+}
+
+.aboutus{
+    font-family: 'roboto' ;
+    font-size: 17px;
+    text-align: center;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 15px;
+    background-color: rgb(243, 244, 245);
+}
+
+.bookscat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#latestAddition {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  width: 100%;
+  padding-top: 25px;
+  font-family: 'meriweather';
+  font-size: 15px;
+  font-style: italic;
+}
+
+#bestselling{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  width: 100%;
+  padding-top: 25px;
+  font-family: 'meriweather';
+  font-size: 15px;
+  font-style: italic;
+
+}
+
+
+
+.bookcard {
+  padding: 5px;
+  border-radius: 8px;
+  text-align: center;
+  width: 180px;
+   
+  
+}
+
+.bookcard img {
+  max-width: 120px;  
+  max-height: 320px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+ #latestAddition h3, #bestselling h3 {
+  grid-column: 1 / -1; 
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+h1{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0%;
+}
+
+#collectionsbtn{
+    border-radius: 30px;
+    padding: 10px;
+    background-color:midnightblue;
+}
+
+#collectionsbtn a{
+    color: white;
+}
+
+.form{
+    background-color: gainsboro;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 0%; 
+}
+
+fieldset {
+  border: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+.form label{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.form div{
+    padding-top: 10px;
+}
+
+.form input[type="text"], .form input[type="tel"], .form input[type="email"] {
+    padding: 5px;
+    width: 25%;
+}
+
+.form input[type="number"]{
+    padding: 5px;
+    width: 5%;
+}
+
+.form select{
+    padding: 6px;
+    width: 26%;
+}
+
+.form textarea{
+    width: 32%;
+    height: 100px;
+}
+
+.form input[type="submit"]{
+    background-color: midnightblue;
+    color: white;
+    padding: 15px;
+    width: 32%;
+    font-size: large;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.ratings {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+.ratings > label {
+	color: black;
+	width: 30px;
+	height: 10px;
+	margin-left: 5px;
+    padding-bottom: 20px;
+    font-size: large;
+	display: flex;
+	align-items: center;
+	caret-color: rgba(0, 0, 0, 0); 
+}
+
+.ratings > label:hover {
+	color: #000;
+}
+
+.ratings > label::before {
+	content: "\2606";
+}
+
+.ratings input:checked ~ label::before {
+	content: "\2605";
+}
+
+
+.Collections {
+  list-style: none;       
+  display: flex;          
+  gap: 15px;            
+  justify-content: center; 
+  padding: 0;
+  margin: 0;
+}
+
+.Collections li {
+  
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+footer{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.Collections {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 0;
+}
+
+.Collections a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+#bookDisplay {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.bookcard img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hamburger{
+        display: none;
+    }
+
+
+
+

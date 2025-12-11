@@ -1,0 +1,70 @@
+@media screen and (max-width: 640px) {
+    
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+        background-color: midnightblue;
+        position: relative;
+    }
+
+
+    .hamburger {
+        display: block;
+        width: 35px;
+        height: 35px;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .hamburger::before {
+        content: '☰';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hamburger.open::before {
+        content: '✕';
+    }
+
+    
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        }
+
+    .navbar.open {
+        display: flex;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 20px 15px;
+        background-color:black;
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid black;
+        font-size: 18px;
+    } 
+
+    main {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+}
